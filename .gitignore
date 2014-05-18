@@ -12,6 +12,10 @@ lib-cov
 *.pid
 *.gz
 
+### Meteor ###
+packages/
+.meteor/
+
 pids
 logs
 results

@@ -1,2 +1,5 @@
 standard-app-packages
 iron-router
+accounts-password
+accounts-base
+flash-messages
