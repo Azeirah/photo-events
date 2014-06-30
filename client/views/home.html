@@ -1,14 +1,16 @@
 <template name="home">
-  <div class="container">
-    <h2>Eventr</h2>
     {{#if currentUser}}
-      <p>Welcome, {{username}}</p>
+        <p>Welcome, {{username}}</p>
     {{/if}}
     <ul>
-      <li><a href="/register">Register</a></li>
-      <li><a href="/login">Login</a></li>
-      <li><a href="/settings">Settings</a></li>
-      <li><a href="" id="logout">Logout</a></li>
+        {{#if currentUser}}
+        <li><a href="/settings">Settings</a></li>
+        {{else}}
+        <li><a href="/register">I'm new here</a></li>
+        <li><a href="/login">Log in</a></li>
+        {{/if}}
     </ul>
-  </div>
+    {{#if currentUser}}
+        <p>(TIMELINE GOES HERE)</p>
+    {{/if}}
 </template>

@@ -1,4 +1,7 @@
 <template name="register">
+    {{#if currentUser}}
+    {{> home}}
+    {{else}}
     {{> flashMessages}}
     <form id="register-form" action="action">
         <div>
@@ -10,4 +13,5 @@
             <input type="submit" id="register-submit" value="Register">
         </div>
     </form>
+    {{/if}}
 </template>

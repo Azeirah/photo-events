@@ -1,6 +1,13 @@
 {
   "packages": {
     "iron-router": {},
-    "flash-messages": {}
+    "flash-messages": {},
+    "handlebars-server": {},
+    "winston": {},
+    "normalize.css": {
+      "git": "https://github.com/rithis-archive/meteor-normalize.css.git"
+    },
+    "font-awesome": {},
+    "event-hooks": {}
   }
 }

@@ -3,3 +3,8 @@ iron-router
 accounts-password
 accounts-base
 flash-messages
+email
+handlebars-server
+winston
+font-awesome
+event-hooks

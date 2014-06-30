@@ -16,7 +16,7 @@ lib-cov
 packages/
 .meteor/
 
-pids
+pid
 logs
 results
 

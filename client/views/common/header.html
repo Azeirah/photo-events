@@ -1,0 +1,18 @@
+<template name="header">
+    <header>
+        {{#if currentUser}}
+            <i class="fa fa-bars menu-button"></i>
+        {{/if}}
+        <h1><a href="/" class="logo">Eventr</a></h1>
+        <a href="/" class="fa fa-home"></a>
+        {{#if currentUser}}
+        <a href="/newEvent"><i class="fa fa-plus add-button"></i></a>
+        {{/if}}
+    </header>
+    {{#if currentUser}}
+        {{> sidebarLeft}}
+    {{/if}}
+    <div class="container">
+        {{> yield}}
+    </div>
+</template>
