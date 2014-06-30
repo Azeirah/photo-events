@@ -64,19 +64,22 @@ Template.changePassword.events({
     }
 });
 
-// Template.header.events({
-//     'click .menu-button': function (event, t) {
-//         $(".sidebarLeft").toggleClass('open');
-//     }
-// });
-
 Template.sidebarLeft.rendered = function () {
     console.log("slidebars ready, sidebarleft rendered");
     $.slidebars();
 };
 
+Template.newEvent.loadDateInputs = function () {
+    Meteor.defer(function () {
+        $('.datepicker').datepicker();
+    });
+};
+
 Template.newEvent.events({
     'click #newEvent': function (event, t) {
+        var name = t.find("#eventName").value;
+        var startDate = t.find("#eventStartDate");
+        var endDate = t.find("#eventEndDate");
         Event.create(Meteor.userId());
     }
 });
