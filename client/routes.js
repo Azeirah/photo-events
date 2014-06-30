@@ -6,7 +6,7 @@ Router.onAfterAction(function () {
     if (!Meteor.userId()) {
         Router.go('home');
     }
-}, {except: ['home', 'login', 'register']});
+}, {except: ['home', 'login', 'register', 'verifyEmail', 'resetPassword', 'resetPasswordRequest']});
 
 Router.map(function () {
     this.route('home', {

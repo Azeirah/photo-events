@@ -1,18 +1,24 @@
 <template name="header">
-    <header>
-        {{#if currentUser}}
-            <i class="fa fa-bars menu-button"></i>
-        {{/if}}
-        <h1><a href="/" class="logo">Eventr</a></h1>
-        <a href="/" class="fa fa-home"></a>
-        {{#if currentUser}}
-        <a href="/newEvent"><i class="fa fa-plus add-button"></i></a>
-        {{/if}}
-    </header>
+    <div class="container" id="sb-site">
+        <header>
+            <div class="header-section header-left">
+                {{#if currentUser}}
+                <a href="#menu" class="sb-toggle-left"><i class="fa fa-bars menu-button"></i></a>
+                {{/if}}
+                <a href="/"><i class="fa fa-home"></i></a>
+            </div>
+            <div class="header-section header-middle">
+                <h1><a href="/" class="logo">Eventr</a></h1>
+            </div>
+            <div class="header-section header-right">
+                {{#if currentUser}}
+                <a href="/newEvent"><i class="fa fa-plus add-button"></i></a>
+                {{/if}}
+            </div>
+        </header>
+        {{> yield}}
+    </div>
     {{#if currentUser}}
         {{> sidebarLeft}}
     {{/if}}
-    <div class="container">
-        {{> yield}}
-    </div>
 </template>

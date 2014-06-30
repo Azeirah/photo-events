@@ -1,19 +1,8 @@
-.menu-button {
-    float: left;
-    position: absolute;
-    top: 7px;
-    left: 8px;
-}
-
 .menu-button:hover {
     cursor: pointer;
 }
 
 .add-button {
-    float: right;
-    position: absolute;
-    top: 7px;
-    right: 8px;
     cursor: pointer;
 }
 
@@ -22,24 +11,49 @@ body {
 }
 
 header {
-    font-size: 25px;
-    line-height: 40px;
-    vertical-align: middle;
-    display: block;
-    position: relative;
-    padding: 0;
-    margin: 0;
-    font-weight: bold;
-    width: 100%;
-    background-color: #3774C0;
-    color: white;
-    text-align: center;
-    height: 40px;
+  padding: 0 4px 0 4px;
+  font-size: 25px;
+  line-height: 40px;
+  vertical-align: middle;
+  display: block;
+  position: relative;
+  font-weight: bold;
+  height: 40px;
+  background-color: #3774C0;
 }
 
-header a {
-    color: white;
+.header-section {
+  float: left;
+  color: white;
+  width: 33.3%;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  display: inline-block;
 }
+
+.header-section a, .header-section i {
+  color: white;
+}
+
+.header-left {
+  float: left;
+  text-align: left;
+}
+
+.header-middle, .header-middle a {
+  text-align: center;
+}
+
+.header-right, .header-right a {
+  text-align: right;
+  float: right;
+}
+
+/*div.right {
+  text-align: right;
+  float: right;
+}*/
 
 .container {
     margin: 8px;
@@ -56,8 +70,6 @@ a {
 }
 
 .sidebarLeft {
-    width: 0;
-    display: none;
     background-color: #333;
     color: white;
     padding: 8px;
