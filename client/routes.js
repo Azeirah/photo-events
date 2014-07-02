@@ -2,6 +2,7 @@ Router.configure({
     layoutTemplate: 'header'
 });
 
+// redirect not-logged in users home if they are not on any of the "except" pages
 Router.onAfterAction(function () {
     if (!Meteor.userId()) {
         Router.go('home');
