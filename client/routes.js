@@ -46,25 +46,11 @@ Router.map(function () {
         }
     });
 
-    this.route('settings', {
-        path: '/settings',
-        template: 'settings'
-    });
-
-    this.route('featured', {
-        path: '/featured',
-        template: 'featured'
-    });
-
-    this.route('events', {
-        path: '/events',
-        template: 'events'
-    });
-
-    this.route('newEvent' , {
-        path: '/newEvent',
-        template: 'newEvent'
-    });
+    this.route('settings');
+    this.route('featured');
+    this.route('events');
+    this.route('newEvent');
+    this.route('changePassword');
 
     this.route('resetPasswordRequest', {
         path: '/resetPasswordRequest',
@@ -77,10 +63,6 @@ Router.map(function () {
         action: 'resetPassword'
     });
 
-    this.route('changePassword', {
-        path: '/changePassword',
-        template: 'changePassword'
-    })
 
     this.route('verifyEmail', {
         controller: 'AccountController',
