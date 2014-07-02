@@ -1,11 +1,15 @@
 <template name="newEvent">
     {{#if currentUser}}
-    <form class="newEventForm">
+    <form id="newEventForm">
         <label for="eventName">Name of the event: </label><input id="eventName" type="text" placeholder="ex: my birthday">
         <br>
-        <label for="eventName">When does it start? </label><input id="eventStartDate" class="datepicker" type="date">
+        <label for="eventStartDate">When does it start? </label>
+        <input id="eventStartDate" class="date start" type="text">
+        <input class="time start" type="text">
         <br>
-        <label for="eventName">And when does it end? </label><input id="eventEndDate" class="datepicker" type="date">
+        <label for="eventEndDate">And when does it end? </label>
+        <input id="eventEndDate" class="date end" type="text">
+        <input class="time end" type="text">
         {{loadDateInputs}}
     </form>
     <br>
