@@ -10,11 +10,6 @@ Router.onAfterAction(function () {
 }, {except: ['home', 'login', 'register', 'verifyEmail', 'resetPassword', 'resetPasswordRequest']});
 
 Router.map(function () {
-    this.route('home', {
-        path: '/',
-        template: 'home'
-    });
-
     this.route('register', {
         path: '/register',
         template: 'register',
@@ -46,9 +41,12 @@ Router.map(function () {
         }
     });
 
+    this.route('home', {
+        path: "/"
+    });
     this.route('settings');
     this.route('featured');
-    this.route('events');
+    this.route('evts');
     this.route('newEvent');
     this.route('changePassword');
 
