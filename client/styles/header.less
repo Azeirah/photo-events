@@ -1,0 +1,48 @@
+@import 'variables';
+
+header {
+  padding: 0 8px 0 8px;
+  font-size: 25px;
+  line-height: @headerHeight;
+  height: @headerHeight;
+  vertical-align: middle;
+  display: block;
+  position: relative;
+  font-weight: bold;
+  margin-bottom: @spacerSize !important;
+  background-color: @primaryColor;
+
+  h1 {
+    font-weight: bold;
+    font-size: @logoSize;
+  }
+
+  .header-section {
+    float: left;
+    color: white;
+    width: 33.3%;
+    height: @headerHeight;
+    line-height: @headerHeight;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  .header-section i {
+    color: white;
+    font-size: @iconSize;
+  }
+
+  .header-left {
+    float: left;
+    text-align: left;
+  }
+
+  .header-middle, .header-middle a {
+    text-align: center;
+  }
+
+  .header-right, .header-right a {
+    text-align: right;
+    float: right;
+  }
+}
