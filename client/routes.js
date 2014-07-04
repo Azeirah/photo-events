@@ -36,6 +36,7 @@ Router.map(function () {
         onAfterAction: function () {
             if (Meteor.userId()) {
                 Meteor.logout();
+                $.slidebars.close('left');
                 Router.go('/');
             }
         }
