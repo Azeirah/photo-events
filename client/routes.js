@@ -1,5 +1,6 @@
 Router.configure({
-    layoutTemplate: 'header'
+    layoutTemplate: 'header',
+    notFoundTemplate: 'home'
 });
 
 // redirect not-logged in users home if they are not on any of the "except" pages
