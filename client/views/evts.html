@@ -1,14 +1,5 @@
 <template name="evts">
     {{#each getAllEvents}}
-    <div class="eventPanel panel">
-    <div class="eventPanel-top">
-        <img src="" class="thumbnail">
-        <div class="eventPanel-information">
-            <h1>{{getUsername this.organizer}} organizes <span class="highlight-text">{{this.name}}</span></h1>
-            <hr>
-            <span class="date">{{formatDate this.creationDate}}</span>
-        </div>
-    </div>
-    </div>
+    {{> eventOrganizerPanel}}
     {{/each}}
 </template>

@@ -1,0 +1,36 @@
+@import 'variables';
+
+.sidebarLeft {
+    background-color: @secondaryColor;
+    padding: @padding;
+    color: white;
+    vertical-align: text-top;
+
+    .profile .photo {
+        margin-right: @textMargin;
+        float: left;
+        display: inline-block;
+        width: 65px;
+        height: 65px;
+        background-color: white;
+        border: 1px solid green;
+    }
+
+    .links {
+        margin: @textMargin 0 @textMargin 0;
+        width: 100%;
+        float: left;
+    }
+
+    .links a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        border-bottom: 1px solid white;
+        font-size: 1.1em;
+    }
+
+    .username {
+        font-size: 1.2em;
+    }
+}
