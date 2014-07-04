@@ -3,7 +3,8 @@
 	[
 		{
 			"follow_symlinks": true,
-			"path": "/home/mb/Documents/web/meteor-applications/photo-events"
+			"path": "/home/mb/Documents/web/meteor-applications/photo-events",
+            "folder_exclude_patterns": [".meteor", "packages", ".node-modules"]
 		}
 	]
 }
