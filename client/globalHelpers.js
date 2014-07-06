@@ -7,7 +7,7 @@ UI.registerHelper("username", function () {
 
 UI.registerHelper("getUsername", function (_id) {
     var user = Meteor.users.findOne({_id: _id});
-    // console.log(user);
+    console.dir(user);
     return user.username;
 });
 

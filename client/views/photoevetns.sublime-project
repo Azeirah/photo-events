@@ -2,9 +2,14 @@
 	"folders":
 	[
 		{
+			"folder_exclude_patterns":
+			[
+				".meteor",
+				"packages",
+				".node-modules"
+			],
 			"follow_symlinks": true,
-			"path": "/home/mb/Documents/web/meteor-applications/photo-events",
-            "folder_exclude_patterns": [".meteor", "packages", ".node-modules"]
+			"path": "/home/mb/Documents/web/meteor-applications/photo-events"
 		}
 	]
 }
