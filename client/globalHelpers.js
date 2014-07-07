@@ -6,9 +6,12 @@ UI.registerHelper("username", function () {
 });
 
 UI.registerHelper("getUsername", function (_id) {
-    var user = Meteor.users.findOne({_id: _id});
-    console.dir(user);
-    return user.username;
+    try {
+        var user = Meteor.users.findOne({_id: _id});
+        return user.username;
+    } catch (error) {
+        return "There's an error retrieving the organizer's name";
+    }
 });
 
 UI.registerHelper("formatDate", function (epoch) {
