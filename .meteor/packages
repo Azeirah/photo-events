@@ -10,4 +10,5 @@ font-awesome
 event-hooks
 jquery-ui
 less
-insecure
+underscore
+kadira

@@ -8,6 +8,7 @@
       "git": "https://github.com/rithis-archive/meteor-normalize.css.git"
     },
     "font-awesome": {},
-    "event-hooks": {}
+    "event-hooks": {},
+    "kadira": {}
   }
 }

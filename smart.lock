@@ -11,7 +11,8 @@
         "branch": "master"
       },
       "font-awesome": {},
-      "event-hooks": {}
+      "event-hooks": {},
+      "kadira": {}
     },
     "packages": {
       "iron-router": {
@@ -48,6 +49,11 @@
         "git": "https://github.com/BenjaminRH/meteor-event-hooks.git",
         "tag": "v1.4.3",
         "commit": "ba4f3d7887748458618d29615492906f0c88d31c"
+      },
+      "kadira": {
+        "git": "https://github.com/meteorhacks/kadira.git",
+        "tag": "v2.4.8",
+        "commit": "5f4437af113537def34484c7b7a2a5e4d60847a9"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
