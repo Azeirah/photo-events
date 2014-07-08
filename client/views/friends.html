@@ -1,0 +1,8 @@
+<template name="friends">
+    <div>
+        <label for="addFriendSearch"><input id="addFriendSearch" type="text" placeholder="Add a new friend"></label>
+    </div>
+    {{#each getAllFriends}}
+        {{> friend}}
+    {{/each}}
+</template>

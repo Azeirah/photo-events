@@ -51,6 +51,7 @@ Router.map(function () {
     this.route('evts');
     this.route('newEvent');
     this.route('changePassword');
+    this.route('friends');
 
     this.route('resetPasswordRequest', {
         path: '/resetPasswordRequest',
