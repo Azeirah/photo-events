@@ -2,4 +2,9 @@
     {{#each getAllEvents}}
     {{> eventOrganizerPanel}}
     {{/each}}
+    {{#if noEvents}}
+        <div>
+            <p>You don't organize any events yet, <a href="/newEvent">start one here</a>.</p>
+        </div>
+    {{/if}}
 </template>

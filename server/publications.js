@@ -3,10 +3,10 @@ Meteor.publish("Events", function () {
 });
 
 Meteor.publish("allUsers", function () {
-    console.log("publishing users");
     return Meteor.users.find({}, {
         fields: {
-            username: 1
+           username: 1,
+           friends: 1
         }
     });
 });

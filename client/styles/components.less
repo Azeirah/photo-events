@@ -1,8 +1,17 @@
 @import 'variables';
+@import 'util';
 
 .thumbnail {
     width: @thumbnailSize;
     height: @thumbnailSize;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid green;
+}
+
+.thumbnail-small {
+    width: @thumbnailSize/2;
+    height: @thumbnailSize/2;
     display: inline-block;
     background-color: white;
     border: 1px solid green;

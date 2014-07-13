@@ -1,7 +1,20 @@
 @import 'variables';
 @import 'components';
 
-.thumbnail {
-    .thumbnail;
-    float: left;
+.friend {
+    border: 1px solid black;
+    width: 60%;
+    text-align: left;
+    line-height: @thumbnailSize/2;
+}
+
+.person {
+    @height: @thumbnailSize/2 + 10;
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: @height;
+    text-align: left;
+    line-height: @height;
+    vertical-align: middle;
 }

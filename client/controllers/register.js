@@ -9,7 +9,8 @@ Template.register.events({
                 FlashMessages.sendError("Registration failed");
            } else {
                 FlashMessages.sendInfo("Registration succesful");
-                Meteor.loginWithPassword(email, password);
+                // Meteor.loginWithPassword(email, password);
+                Meteor.users.update({_id: Meteor.userId()}, {$set: {friends: []}});
                 Router.go('home');
            }
         });

@@ -9,6 +9,7 @@
     },
     "font-awesome": {},
     "event-hooks": {},
-    "kadira": {}
+    "kadira": {},
+    "jquery-mobile": {}
   }
 }

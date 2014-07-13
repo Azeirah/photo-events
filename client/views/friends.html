@@ -2,6 +2,9 @@
     <div>
         <label for="addFriendSearch"><input id="addFriendSearch" type="text" placeholder="Add a new friend"></label>
     </div>
+    {{#each searchQuery}}
+        {{> person}}
+    {{/each}}
     {{#each getAllFriends}}
         {{> friend}}
     {{/each}}

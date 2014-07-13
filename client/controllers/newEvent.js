@@ -24,17 +24,9 @@ function parseTime(timeStr, dt) {
 Template.newEvent.loadDateInputs = function () {
     Meteor.defer(function loadDateInputsDefer () {
         var twoHoursMillis = 7200000; // two hours in milliseconds
-        $('.time').timepicker({
-            'showDuration': true,
-            'timeFormat': 'H:s'
-        });
         $('.date').datepicker({
             'format': 'dd/mm/yyyy',
             'autoclose': true
-        });
-        datepair = $('#newEventForm');
-        datepair.datepair({
-            defaultTimeDelta: twoHoursMillis
         });
     });
 };
@@ -45,19 +37,15 @@ Template.newEvent.events({
         var name = $(t.find("#eventName")).val();
         var startDate = $(t.find(".date.start"));
         var endDate = $(t.find(".date.end"));
-        var startTime = $(t.find('.time.start'));
-        var endTime = $(t.find('.time.end'));
         var startDateNum = +new Date(startDate.val());
         var endDateNum = +new Date(endDate.val());
-        var startTimeNum = +new Date(parseTime(startTime.val()));
-        var endTimeNum = +new Date(parseTime(endTime.val()));
         var duration;
         var validInput = true;
 
-        if (endDate.val().length !== 0 && startDate.val().length !== 0 && startTime.val().length !== 0 && endTime.val().length !== 0) {
-            duration = (endDateNum + endTimeNum) - (startDateNum + startTimeNum);
-            if (duration < hour) {
-                FlashMessages.sendError("Your event must last longer than one hour");
+        if (endDate.val().length !== 0 && startDate.val().length !== 0) {
+            duration = endDateNum - startDateNum;
+            if (duration < hour * 24) {
+                FlashMessages.sendError("Your event must last at least one day");
                 validInput = false;
             }
         } else {

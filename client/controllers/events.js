@@ -3,4 +3,8 @@ Template.evts.getAllEvents = function () {
     return allEvents;
 };
 
+Template.evts.noEvents = function () {
+    return Events.find({}).count() === 0;
+};
+
 Meteor.subscribe("Events");
