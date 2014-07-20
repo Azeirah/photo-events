@@ -28,6 +28,6 @@ UI.registerHelper("formatDate", function (epoch) {
 
 UI.registerHelper("getAllFriends", function () {
     if (Meteor.user()) {
-        return Meteor.user().friends;
+        return Meteor.user().profile.friends;
     }
 });

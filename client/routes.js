@@ -10,6 +10,8 @@ Router.onAfterAction(function () {
     }
 }, {except: ['home', 'login', 'register', 'verifyEmail', 'resetPassword', 'resetPasswordRequest']});
 
+Router.onBeforeAction('loading');
+
 Router.map(function () {
     this.route('register', {
         path: '/register',
@@ -74,7 +76,7 @@ Router.map(function () {
     // this.route('enrollAccount', {
     //     controller: 'AccountController',
     //     path: '/enroll-account/:token',
-    //     action: 'resetPassword'
+    //     action: 'resetPassword'meteor site:reddit.com
     // });
 });
 

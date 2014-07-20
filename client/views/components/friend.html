@@ -1,6 +1,6 @@
 <template name="friend">
-    <div class="friend clearfix">
-        <img class="thumbnail-small">
-        <!-- <span class="username">{{getUsername this._id}}</span> -->
-    </div>
+    <tr>
+        <td class="username">{{getUsername this._id}}</td>
+        <td class="remove-icon action-icon"><span class="fa fa-times removeButton"></span></td>
+    </tr>
 </template>

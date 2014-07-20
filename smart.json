@@ -10,6 +10,7 @@
     "font-awesome": {},
     "event-hooks": {},
     "kadira": {},
-    "jquery-mobile": {}
+    "zones": {},
+    "fast-render": {}
   }
 }

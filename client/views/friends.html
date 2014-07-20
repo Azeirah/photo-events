@@ -1,11 +1,29 @@
-<template name="friends">
-    <div>
-        <label for="addFriendSearch"><input id="addFriendSearch" type="text" placeholder="Add a new friend"></label>
-    </div>
-    {{#each searchQuery}}
-        {{> person}}
-    {{/each}}
-    {{#each getAllFriends}}
-        {{> friend}}
-    {{/each}}
+ <template name="friends">
+    {{#if currentUser}}
+        <div class="block">
+            <h1><span class="username">{{getLoggedInUsername}}</span>'s friends</h1>
+        </div>
+        <label for="addFriendSearch">Search and add friends</label>
+        <div class="input-group">
+            <input id="addFriendSearch" type="text" placeholder="Add a new friend">
+            <button class="hidden addFriendButton">+</button>
+        </div>
+        <div class="friendSelection">
+
+        </div>
+        {{#each getAllFriends}}
+            <table class="block-big-wrapper friends">
+                <thead>
+                    <tr>
+                        <th class="block-big-header" colspan="2"><h1>Your friends</h1></th>
+                    </tr>
+                </thead>
+                <tbody class="friend-list">
+                    {{> friend}}
+                </tbody>
+            </table>
+        {{/each}}
+
+        {{methods}}
+    {{/if}}
 </template>

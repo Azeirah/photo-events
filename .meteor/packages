@@ -12,3 +12,5 @@ jquery-ui
 less
 underscore
 kadira
+zones
+fast-render

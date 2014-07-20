@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"Status",
+				"STATUSSES"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"ad",
+				"addFriendSearch"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
 				"backc",
 				"background-color"
 			],
@@ -136,10 +152,6 @@
 				"beststring"
 			],
 			[
-				"user",
-				"userId	Meteor: this.userId"
-			],
-			[
 				"reset",
 				"resetPasswordForm"
 			],
@@ -200,26 +212,42 @@
 	"buffers":
 	[
 		{
-			"file": "photoevents.sublime-project",
+			"file": "client/controllers/friends.js",
 			"settings":
 			{
-				"buffer_size": 328,
+				"buffer_size": 1135,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "client/views/newEvent.html",
+			"file": "lib/Users.js",
 			"settings":
 			{
-				"buffer_size": 626,
+				"buffer_size": 1376,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "client/controllers/events.js",
+			"file": "client/controllers/register.js",
 			"settings":
 			{
-				"buffer_size": 227,
+				"buffer_size": 806,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/security.js",
+			"settings":
+			{
+				"buffer_size": 99,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/friends.html",
+			"settings":
+			{
+				"buffer_size": 959,
 				"line_ending": "Unix"
 			}
 		},
@@ -227,23 +255,7 @@
 			"file": "client/globalHelpers.js",
 			"settings":
 			{
-				"buffer_size": 852,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/controllers/newEvent.js",
-			"settings":
-			{
-				"buffer_size": 2193,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/views/evts.html",
-			"settings":
-			{
-				"buffer_size": 261,
+				"buffer_size": 860,
 				"line_ending": "Unix"
 			}
 		}
@@ -251,9 +263,33 @@
 	"build_system": "Packages/User/build/javascript.sublime-build",
 	"command_palette":
 	{
-		"height": 196.0,
+		"height": 334.0,
 		"selected_items":
 		[
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Format: Javascript"
+			],
 			[
 				"git graph",
 				"Git: Graph All"
@@ -407,10 +443,6 @@
 				"Preferences: Key Bindings - Default"
 			],
 			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
 				"line",
 				"Sort Lines"
 			],
@@ -476,6 +508,42 @@
 	},
 	"file_history":
 	[
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/smart.json",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/styles/main.less",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/meteoric.config.sh",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/public/stubs.js",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/server/methods.js",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/views/components/friend.html",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/styles/friend.less",
+		"/home/mb/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/mb/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/mb/Documents/learning progress/dvorak-typing.txt",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/styles/components.less",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/styles/variables.less",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/styles/style.less",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/views/friends.html",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/server/publications.js",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/globalHelpers.js",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/controllers/register.js",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/styles/theme.css",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/server/server.js",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/lib/Users.js",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/styles/sidebarLeft.less",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/controllers/sidebarLeft.js",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/README.md",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/styles/util.less",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/views/featured.html",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/routes.js",
+		"/home/mb/Documents/web/meteor/meteor-applications/slideexample/slideexample.js",
+		"/home/mb/Documents/web/meteor/meteor-applications/slideexample/slideexample.css",
+		"/home/mb/Documents/web/meteor/meteor-applications/slideexample/page2.html",
+		"/home/mb/Documents/web/meteor/meteor-applications/slideexample/page1.html",
+		"/home/mb/Documents/web/meteor/meteor-applications/slideexample/layout.html",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/views/newEvent.html",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/views/evts.html",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/controllers/newEvent.js",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/controllers/events.js",
+		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/photoevents.sublime-project",
 		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/photoevetns.sublime-project",
 		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/client/views/photoevetns.sublime-project",
 		"/home/mb/Documents/web/meteor/meteor-applications/photo-events/.meteor/local/build/programs/ctl/node_modules/source-map/build/suffix-browser.js",
@@ -567,43 +635,7 @@
 		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/client/packages/ui.js",
 		"/home/mb/Documents/web/meteor-applications/photo-events/client/views/eventsd.html",
 		"/home/mb/Documents/web/meteor-applications/photo-events/client/views/events.html",
-		"/home/mb/Documents/web/meteor-applications/photo-events/client/startup.js",
-		"/home/mb/Documents/web/meteor-applications/photo-events/server/security.js",
-		"/home/mb/Documents/web/meteor-applications/photo-events/client/controllers/changepassword.js",
-		"/home/mb/Documents/web/meteor-applications/photo-events/client/controllers/resetPassword.js",
-		"/home/mb/Documents/web/meteor-applications/photo-events/client/controllers/settings.js",
-		"/home/mb/Documents/web/meteor-applications/photo-events/client/controllers/login.js",
-		"/home/mb/Desktop/mathbox.js",
-		"/home/mb/Desktop/tQuery.js",
-		"/home/mb/Documents/web/meteor-applications/photo-events/client/views/logout.html",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/ctl/node_modules/npm/node_modules/ansi/color-spaces.pl",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/server/app/server/server-templates/handlebars.verifyEmail.js",
-		"/home/mb/Documents/web/meteor-applications/photo-events/packages/iron-router/lib/router.js",
-		"/home/mb/Documents/java/mp3/MP3-Player/src/Interface.java",
-		"/home/mb/Documents/web/javascript/Better_random.js",
-		"/home/mb/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-		"/home/mb/Documents/python/Nature of code/deap_example.py",
-		"/home/mb/.config/sublime-text-3/Packages/jump.py",
-		"/home/mb/.config/sublime-text-3/Packages/User/build/javascript.sublime-build",
-		"/home/mb/Documents/web/javascript/examples.js",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/client/packages/id-map.js",
-		"/home/mb/Documents/java/mp3/.idea/uiDesigner.xml",
-		"/home/mb/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
-		"/home/mb/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
-		"/home/mb/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/home/mb/Documents/python/Nature of code/string_evolution.py",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/server/npm/mongo-livedata/main/node_modules/mongodb/lib/mongodb/connection/repl_set/repl_set_state.js",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/server/npm/mongo-livedata/main/node_modules/mongodb/lib/mongodb/connection/repl_set/strategies/statistics_strategy.js",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/server/npm/minifiers/main/node_modules/css-stringify/node_modules/source-map/build/suffix-source-map.jsm",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/server/npm/minifiers/main/node_modules/css-stringify/lib/source-map-support.js",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/server/node_modules/npm/node_modules/ansi/color-spaces.pl",
-		"/home/mb/Documents/web/meteor-applications/photo-events/client/views/changePassword.html",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/db/journal/j._0",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/client/packages/json.js",
-		"/home/mb/Documents/web/meteor-applications/photo-events/client/views/resetPassword.html",
-		"/home/mb/Documents/web/meteor-applications/photo-events/client/views/register.html",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/ctl/node_modules/npm/lib/link.js",
-		"/home/mb/Documents/web/meteor-applications/photo-events/packages/handlebars-server/.build/npm/node_modules/handlebars/node_modules/optimist/example/line_count_options.js"
+		"/home/mb/Documents/web/meteor-applications/photo-events/client/startup.js"
 	],
 	"find":
 	{
@@ -614,6 +646,9 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"",
+			"*.less",
+			".less",
 			"*",
 			"js/*",
 			"*",
@@ -626,6 +661,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"userId",
+			"\n",
+			"friend",
+			".request",
+			"operator",
+			"false",
+			"50px",
+			" @",
+			"block",
+			".block",
+			"container",
+			"Meteor.allow",
+			",",
+			"onb",
+			"users",
+			"username",
 			"Username error",
 			"timeStr",
 			"_id",
@@ -737,16 +788,7 @@
 			"\n	",
 			"	",
 			"name=\"yield\"",
-			"yield",
-			"e.which",
-			"\"",
-			"e,",
-			"d",
-			"default",
-			"2",
-			"div",
-			"reverse",
-			"animation: background 10s infinite;\n  -webkit-animation: background 10s infinite;\n  -moz-animation: background 10s infinite;"
+			"yield"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -770,24 +812,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "photoevents.sublime-project",
+					"file": "client/controllers/friends.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 328,
+						"buffer_size": 1135,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								325,
-								325
+								619,
+								619
 							]
 						],
 						"settings":
@@ -795,79 +837,81 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
-								"bh_single_quote_close"
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Phix Dark (SL).tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": -0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "client/views/newEvent.html",
+					"file": "lib/Users.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 626,
+						"buffer_size": 1376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								527,
-								527
+								473,
+								473
 							]
 						],
 						"settings":
@@ -875,50 +919,294 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
-								"bh_single_quote_close"
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Phix Dark (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 101.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/controllers/register.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Phix Dark (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "server/security.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 99,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Phix Dark (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "client/views/friends.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Phix Dark (SL).tmTheme",
 							"incomplete_sync": null,
@@ -932,24 +1220,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "client/controllers/events.js",
+					"buffer": 5,
+					"file": "client/globalHelpers.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 227,
+						"buffer_size": 860,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								152,
-								152
+								452,
+								452
 							]
 						],
 						"settings":
@@ -957,38 +1245,22 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -997,90 +1269,26 @@
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Phix Dark (SL).tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "client/globalHelpers.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 852,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								505,
-								505
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Phix Dark (SL).tmTheme",
 							"incomplete_sync": null,
@@ -1089,168 +1297,6 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "client/controllers/newEvent.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2139,
-								2139
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Phix Dark (SL).tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 719.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "client/views/evts.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								237,
-								237
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Phix Dark (SL).tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1264,7 +1310,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 33.0
+		"height": 68.0
 	},
 	"input":
 	{
@@ -1321,6 +1367,58 @@
 		"selected_items":
 		[
 			[
+				"users",
+				"lib/Users.js"
+			],
+			[
+				"glo",
+				"client/globalHelpers.js"
+			],
+			[
+				"friehtml",
+				"client/views/friends.html"
+			],
+			[
+				"vari",
+				"client/styles/variables.less"
+			],
+			[
+				"friles",
+				"client/styles/friend.less"
+			],
+			[
+				"styles",
+				"client/styles/style.less"
+			],
+			[
+				"frienhm",
+				"client/views/components/friend.html"
+			],
+			[
+				"fril",
+				"client/styles/friend.less"
+			],
+			[
+				"secuir",
+				"server/security.js"
+			],
+			[
+				"publi",
+				"server/publications.js"
+			],
+			[
+				"less",
+				"client/styles/main.less"
+			],
+			[
+				"frhm",
+				"client/views/friends.html"
+			],
+			[
+				"routes",
+				"client/routes.js"
+			],
+			[
 				".sublime",
 				"client/views/photoevetns.sublime-project"
 			],
@@ -1331,14 +1429,6 @@
 			[
 				"frien.js",
 				"client/controllers/friends.js"
-			],
-			[
-				"glo",
-				"client/globalHelpers.js"
-			],
-			[
-				"publi",
-				"server/publications.js"
 			],
 			[
 				"varia",
@@ -1353,10 +1443,6 @@
 				"client/views/friends.html"
 			],
 			[
-				"less",
-				"client/styles/sidebarLeft.less"
-			],
-			[
 				"globa",
 				"client/globalHelpers.js"
 			],
@@ -1369,16 +1455,8 @@
 				"client/views/components/event-organizer.html"
 			],
 			[
-				"routes",
-				"client/routes.js"
-			],
-			[
 				"lar",
 				"/media/mb/F266-5162/lars.html"
-			],
-			[
-				"vari",
-				"photo-events/client/styles/variables.less"
 			],
 			[
 				"sideh",
@@ -1510,7 +1588,7 @@
 		[
 			[
 				"",
-				"~/Documents/web/meteor/meteor-packages/social/meteor-social.sublime-project"
+				"~/Documents/web/javascript/nature of code/lib/martijnbrekelmans.sublime-project"
 			]
 		],
 		"width": 380.0

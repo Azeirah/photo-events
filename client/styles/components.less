@@ -16,3 +16,23 @@
     background-color: white;
     border: 1px solid green;
 }
+
+.block {
+    margin: 0 auto;
+}
+
+.block-big-wrapper {
+    .block;
+    width: @bigBlockWidth;
+    text-align: center;
+}
+
+.block-big-header {
+    background-color: @primaryColor;
+    color: white;
+    text-align: center;
+    font-size: @bigBlockTextSize;
+    line-height: @bigBlockHeight;
+    height: @bigBlockHeight;
+    text-align: center;
+}

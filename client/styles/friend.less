@@ -1,9 +1,24 @@
 @import 'variables';
 @import 'components';
 
+.friends {
+    .username {
+        text-align: left;
+    }
+
+    .friend-list > tr {
+        background-color: @secondaryBackground;
+        border-top: 1px solid #BBB;
+        td {
+            padding: @padding;
+        }
+    }
+
+}
+
 .friend {
     border: 1px solid black;
-    width: 60%;
+    width: 96%;
     text-align: left;
     line-height: @thumbnailSize/2;
 }
@@ -17,4 +32,8 @@
     text-align: left;
     line-height: @height;
     vertical-align: middle;
+}
+
+.action-icon {
+    text-align: right;
 }
