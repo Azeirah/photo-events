@@ -37,7 +37,7 @@ Template.friends.methods = function() {
         var friends = _.pluck(selfUser.profile.friends, "_id");
         var users = Meteor.users.find({}).fetch();
         var names = users.map(function(user) {
-            if (!user.username === selfUser.username && !_.contains(friends, user._id)) {
+            if (user.username !== selfUser.username && !_.contains(friends, user._id)) {
                 return user.username;
             } else {
                 return "";
