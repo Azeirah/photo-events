@@ -11,18 +11,20 @@
         <div class="friendSelection">
 
         </div>
-        {{#each getAllFriends}}
-            <table class="block-big-wrapper friends">
-                <thead>
-                    <tr>
-                        <th class="block-big-header" colspan="2"><h1>Your friends</h1></th>
-                    </tr>
-                </thead>
-                <tbody class="friend-list">
-                    {{> friend}}
-                </tbody>
-            </table>
-        {{/each}}
+        {{#if hasFriends}}
+        <table class="block-big-wrapper friends">
+            <thead>
+                <tr>
+                    <th class="block-big-header" colspan="2"><h1>Your friends</h1></th>
+                </tr>
+            </thead>
+            {{#each getAllFriends}}
+                    <tbody class="friend-list">
+                        {{> friend}}
+                    </tbody>
+            {{/each}}
+        </table>
+        {{/if}}
 
         {{methods}}
     {{/if}}
