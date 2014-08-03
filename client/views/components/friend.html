@@ -1,6 +1,16 @@
 <template name="friend">
     <tr>
         <td class="username">{{getUsername this._id}}</td>
-        <td class="remove-icon action-icon"><span class="fa fa-times removeButton"></span></td>
+        {{#if pending this.status}}
+            <td class="remove-icon action-icon"><span class="fa fa-times">Waiting for confirmation</span></td>
+        {{/if}}
+
+        {{#if areFriends this.status}}
+            <td class="action-icon"><span class="fa fa-times removeButton">Friend confirmed</span></td>
+        {{/if}}
+
+        {{#if request this.status}}
+            <td class="action-icon"><span class="fa fa-plus confirmButton">This is a request</span></td>
+        {{/if}}
     </tr>
 </template>

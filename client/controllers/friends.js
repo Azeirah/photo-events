@@ -62,7 +62,8 @@ Template.friends.hasFriends = function() {
 };
 
 /**
- * This loads in usernames into the autocomplete field
+ * This loads in usernames into the autocomplete field. The function runs on startup.
+ * This is a hack, as it's being called as a template method in friends.html. See it as an initialisation script.
  */
 Template.friends.methods = function() {
     // TODO: This fetches *all* users, this will get messy when you have a few million users.
@@ -78,7 +79,30 @@ Template.friends.methods = function() {
         $("#addFriendSearch").autocomplete({
             source: names
         }).change(change);
+
+        Meteor.subscribe("friends");
+        Meteor.subscribe('allUsers');
     });
 };
 
-Meteor.subscribe('allUsers');
+/**
+ * Takes a status and returns if the status is a pending friend request
+ */
+Template.friend.pending = function (status) {
+    return status === Friend.STATUSES.pending;
+};
+
+/**
+ * Takes a status and returns if the status is a confirmed friend
+ */
+Template.friend.areFriends = function (status) {
+    return status === Friend.STATUSES.friend;
+};
+
+/**
+ * Takes a status and returns if the status is a friend request
+ */
+Template.friend.request = function (status) {
+    return status === Friend.STATUSES.request;
+};
+
