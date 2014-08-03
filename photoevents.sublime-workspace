@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"is",
+				"isLoggedInUser"
+			],
+			[
 				"addF",
 				"addFriendSearch"
 			],
@@ -223,23 +227,24 @@
 			"file": "lib/Users.js",
 			"settings":
 			{
-				"buffer_size": 1602,
+				"buffer_size": 5086,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "client/controllers/register.js",
+			"contents": "Friend.confirmFriendRequest(Meteor.users.findOne({\"username\": \"martijn\"})._id);",
 			"settings":
 			{
-				"buffer_size": 806,
-				"line_ending": "Unix"
+				"buffer_size": 79,
+				"line_ending": "Unix",
+				"name": "Friend.confirmFriendRequest(Meteor.users.findOne({"
 			}
 		},
 		{
-			"file": "client/controllers/friends.js",
+			"file": ".meteor/local/build/programs/client/app/client/controllers/friends.js",
 			"settings":
 			{
-				"buffer_size": 1957,
+				"buffer_size": 3129,
 				"line_ending": "Unix"
 			}
 		}
@@ -255,19 +260,23 @@
 				"Git: Commit"
 			],
 			[
+				"git addc",
+				"Git: Add Current File"
+			],
+			[
+				"replno",
+				"SublimeREPL: Node"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
 				"git add",
 				"Git: Add Current File"
 			],
 			[
-				"git re",
-				"Git: Reset (unstage) Current File"
-			],
-			[
 				"git com",
-				"Git: Commit"
-			],
-			[
-				"gitc",
 				"Git: Commit"
 			],
 			[
@@ -275,12 +284,16 @@
 				"Git: Add..."
 			],
 			[
-				"git commt",
+				"git re",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"gitc",
 				"Git: Commit"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
+				"git commt",
+				"Git: Commit"
 			],
 			[
 				"json",
@@ -495,7 +508,7 @@
 				"Set Syntax: CSS"
 			]
 		],
-		"width": 507.0
+		"width": 561.0
 	},
 	"console":
 	{
@@ -516,6 +529,17 @@
 	},
 	"file_history":
 	[
+		"/home/combocoptop/Documents/programming/meteor/photo-events/client/controllers/friends.js",
+		"/home/combocoptop/Documents/programming/meteor/photo-events/client/views/components/friend.html",
+		"/home/combocoptop/Documents/programming/meteor/photo-events/client/styles/friend.less",
+		"/home/combocoptop/Documents/programming/meteor/photo-events/.meteor/local/build/programs/server/app/lib/Users.js",
+		"/home/combocoptop/Documents/programming/meteor/photo-events/server/publications.js",
+		"/home/combocoptop/Documents/programming/meteor/photo-events/client/views/common/head.html",
+		"/home/combocoptop/Documents/programming/meteor/photo-events/.meteor/local/build/programs/client/app/lib/Users.js",
+		"/home/combocoptop/.config/sublime-text-3/Packages/User/javascript/console-dir.sublime-snippet",
+		"/home/combocoptop/Documents/programming/meteor/photo-events/photoevents.sublime-project",
+		"/home/combocoptop/Documents/programming/meteor/photo-events/client/views/friends.html",
+		"/home/combocoptop/.config/sublime-text-3/Packages/User/javascript/console-log.sublime-snippet",
 		"/home/combocoptop/Documents/programs/meteor/photo-events/client/views/friends.html",
 		"/home/combocoptop/Documents/programs/meteor/photo-events/client/globalHelpers.js",
 		"/home/combocoptop/Documents/programs/meteor/photo-events/client/controllers/friends.js",
@@ -632,22 +656,11 @@
 		"/home/mb/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
 		"/home/mb/Documents/web/meteor-applications/photo-events/packages/winston/.build/npm/node_modules/winston/test/log-exception-test.js",
 		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/ctl/npm/logging/main/node_modules/cli-color/.lint",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.gitignore",
-		"/home/mb/Documents/web/meteor-applications/photo-events/client/views/common/header.html",
-		"/home/mb/Documents/web/meteor-applications/photo-events/client/styles/reset.css",
-		"/home/mb/Documents/web/meteor-applications/photo-events/packages/handlebars-server/.npm/package/node_modules/handlebars/node_modules/uglify-js/docstyle.css",
-		"/home/mb/Documents/web/meteor-applications/photo-events/packages/handlebars-server/.build/npm/node_modules/handlebars/node_modules/uglify-js/docstyle.css",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/server/npm/webapp/main/node_modules/connect/lib/public/style.css",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/ctl/node_modules/npm/html/static/style.css",
-		"/home/mb/Documents/web/meteor-applications/photo-events/packages/iron-router/.npm/package/node_modules/connect/lib/public/style.css",
-		"/home/mb/Documents/web/meteor-applications/photo-events/packages/iron-router/.build-garbage-3ko7ex/npm/node_modules/connect/lib/public/style.css",
-		"/home/mb/Documents/web/meteor-applications/photo-events/packages/iron-router/.build/npm/node_modules/connect/lib/public/style.css",
-		"/home/mb/Documents/web/meteor-applications/photo-events/.meteor/local/build/programs/ctl/node_modules/esprima/assets/style.css",
-		"/home/mb/Documents/web/meteor-applications/photo-events/packages/handlebars-server/handlebars-server-tests.handlebars"
+		"/home/mb/Documents/web/meteor-applications/photo-events/.gitignore"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -669,6 +682,33 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"userId",
+			"$update",
+			"$set: {\"profile.friends.$.status\": Friend.STATUSES.friend}",
+			"friends",
+			"STATUSSES",
+			"Meteor",
+			"userId",
+			"dir",
+			"friend._id",
+			"Meteor.",
+			"request",
+			"userId",
+			"expected",
+			"python",
+			"hello",
+			"userId",
+			"friendId",
+			".allow",
+			"pubsub",
+			"not",
+			"Friends",
+			"STATUSSES",
+			"removeButton",
+			"STATUSSES",
+			"python",
+			"hello",
+			"$addFriendButton",
 			"$btn",
 			"validateUseirname",
 			"if",
@@ -769,34 +809,7 @@
 			"//",
 			"array",
 			"RDA",
-			"find_next",
-			"select",
-			"selection",
-			"ctrl+alt+",
-			"A",
-			"\"],",
-			"+k",
-			"line",
-			"boolean",
-			"exactMatch",
-			"exactmatch",
-			"self.pool",
-			"mutate",
-			"d",
-			"calc_fi",
-			"phrase",
-			"other",
-			"val",
-			"makePairs",
-			"))))\n",
-			"addInhabintant",
-			"p",
-			"50px",
-			"left",
-			"div",
-			"head",
-			"reset",
-			"resetPassword"
+			"find_next"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -804,6 +817,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"STATUSES",
 			"eventOrganizerPanel",
 			"formatDate",
 			"jump_to_interactive",
@@ -820,7 +834,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -829,15 +843,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1602,
+						"buffer_size": 5086,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								296,
-								296
+								4643,
+								4643
 							]
 						],
 						"settings":
@@ -853,10 +867,6 @@
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -869,53 +879,134 @@
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/predawn.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 362.0,
+						"translation.y": 2489.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "client/controllers/register.js",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 806,
+						"buffer_size": 79,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								562,
-								562
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "Friend.confirmFriendRequest(Meteor.users.findOne({",
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/predawn.tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".meteor/local/build/programs/client/app/client/controllers/friends.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -931,10 +1022,6 @@
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -947,26 +1034,30 @@
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/predawn.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
@@ -977,91 +1068,13 @@
 					},
 					"stack_index": 2,
 					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "client/controllers/friends.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1957,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								136,
-								136
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/predawn.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -1109,7 +1122,7 @@
 	"project": "photoevents.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1117,6 +1130,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"friends",
+				"client/controllers/friends.js"
+			],
+			[
+				"friends.js",
+				"client/controllers/friends.js"
+			],
 			[
 				"u",
 				"lib/Users.js"
