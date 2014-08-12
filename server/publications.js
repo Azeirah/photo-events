@@ -1,7 +1,5 @@
 Meteor.publish("Events", function () {
-    return Events.find({
-        "_id": this.userId
-    });
+    return Events.find({organizer: this.userId}, {limit:10});
 });
 
 Meteor.publish("allUsers", function () {

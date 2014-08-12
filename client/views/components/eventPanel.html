@@ -1,0 +1,20 @@
+<template name="eventOrganizerPanel">
+    <div class="eventPanel panel">
+        <div class="thumbnails">
+            <!-- TODO: Purposefully broken sources, to make it clear there's an image -->
+            <div><img class="eventThumbnail slice" src="dd"></div>
+            <div><img class="eventThumbnail slice" src="dd"></div>
+            <div><img class="eventThumbnail slice" src="dd"></div>
+        </div>
+        <div class="information slice">
+            <img src="" class="stretch">
+            <div class="eventPanelInformation">
+                <p>
+                    <span class="highlightText">{{getUsername this.organizer}}</span>'s Event <br><span class="highlightText centerText">'{{this.name}}'</span>
+                    <br>
+                    {{formatDate this.creationDate}}
+                </p>
+            </div>
+        </div>
+    </div>
+</template>

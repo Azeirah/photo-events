@@ -25,7 +25,7 @@ UI.registerHelper("formatDate", function(epoch) {
     var hours = ("00" + date.getHours()).slice(-2);
     var minutes = ("00" + date.getMinutes()).slice(-2);
 
-    return $.datepicker.formatDate('DD M', date) + " " + hours + ":" + minutes;
+    return $.datepicker.formatDate('dd-mm-yy', date);
 });
 
 UI.registerHelper("getAllFriends", function() {

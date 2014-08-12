@@ -13,13 +13,13 @@ GIT_URL=git://github.com/Azeirah/photo-events.git
 METEORITE=false
 
 # If not using Meteorite, you need to specify this
-METEOR_RELEASE=0.8.1
+METEOR_RELEASE=0.8.2
 
 #If you have an external service, such as Google SMTP, set this
 #MAIL_URL=smtp://USERNAME:PASSWORD@smtp.googlemail.com:465
 
 # What's your app name?
-APP_NAME=test
+APP_NAME=eventr
 
 # If your app is not on the repository root, set this
 APP_PATH=.

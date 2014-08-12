@@ -1,9 +1,10 @@
 {
 	"folders":
 	[
-		{
-			"follow_symlinks": true,
-			"path": "."
-		}
-	]
+        {
+            "follow_symlinks": true,
+            "path": ".",
+            "folder_exclude_patterns": ["packages", ".meteor"],
+        }
+    ],
 }

@@ -1,4 +1,4 @@
-function parseTime(timeStr, dt) {
+var parseTime = function (timeStr, dt) {
     if (!dt) {
         dt = new Date();
     }
@@ -19,7 +19,7 @@ function parseTime(timeStr, dt) {
     dt.setMinutes(parseInt(time[2], 10) || 0);
     dt.setSeconds(0, 0);
     return dt;
-}
+};
 
 Template.newEvent.loadDateInputs = function () {
     Meteor.defer(function loadDateInputsDefer () {
