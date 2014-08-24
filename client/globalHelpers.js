@@ -1,23 +1,9 @@
-UI.registerHelper("username", function() {
-    var user = Meteor.users.findOne({
-        _id: Meteor.userId()
-    });
-    return user.username;
-});
-
-UI.registerHelper("getUsername", function(_id) {
-    try {
-        var user = Meteor.users.findOne({
-            _id: _id
-        });
-        return user.username;
-    } catch (error) {
-        return "Username error";
+UI.registerHelper("getUsername", function (userId) {
+    if (userId) {
+        return Meteor.users.findOne({_id: userId}).username;
+    } else {
+        return Meteor.user().username;
     }
-});
-
-UI.registerHelper("getLoggedInUsername", function() {
-    return Meteor.user().username;
 });
 
 UI.registerHelper("formatDate", function(epoch) {
